@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBA74A312191EECE004D7243 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA74A302191EECE004D7243 /* ViewController2.swift */; };
 		DBC0E75B2180AA1400F2B9B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC0E75A2180AA1400F2B9B8 /* AppDelegate.swift */; };
 		DBC0E75D2180AA1400F2B9B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC0E75C2180AA1400F2B9B8 /* ViewController.swift */; };
 		DBC0E7602180AA1400F2B9B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC0E75E2180AA1400F2B9B8 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		DBC0E7652180AA1600F2B9B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC0E7632180AA1600F2B9B8 /* LaunchScreen.storyboard */; };
 		DBC0E7702180AA1600F2B9B8 /* Practica_02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC0E76F2180AA1600F2B9B8 /* Practica_02Tests.swift */; };
 		DBC0E77B2180AA1600F2B9B8 /* Practica_02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC0E77A2180AA1600F2B9B8 /* Practica_02UITests.swift */; };
+		DBC0E78B2180B6CB00F2B9B8 /* Moneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC0E78A2180B6CB00F2B9B8 /* Moneda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DBA74A302191EECE004D7243 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		DBC0E7572180AA1400F2B9B8 /* Practica 02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practica 02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC0E75A2180AA1400F2B9B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBC0E75C2180AA1400F2B9B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		DBC0E7762180AA1600F2B9B8 /* Practica 02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practica 02UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC0E77A2180AA1600F2B9B8 /* Practica_02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practica_02UITests.swift; sourceTree = "<group>"; };
 		DBC0E77C2180AA1600F2B9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC0E78A2180B6CB00F2B9B8 /* Moneda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moneda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 		DBC0E7592180AA1400F2B9B8 /* Practica 02 */ = {
 			isa = PBXGroup;
 			children = (
+				DBC0E78A2180B6CB00F2B9B8 /* Moneda.swift */,
 				DBC0E75A2180AA1400F2B9B8 /* AppDelegate.swift */,
 				DBC0E75C2180AA1400F2B9B8 /* ViewController.swift */,
 				DBC0E75E2180AA1400F2B9B8 /* Main.storyboard */,
+				DBA74A302191EECE004D7243 /* ViewController2.swift */,
 				DBC0E7612180AA1600F2B9B8 /* Assets.xcassets */,
 				DBC0E7632180AA1600F2B9B8 /* LaunchScreen.storyboard */,
 				DBC0E7662180AA1600F2B9B8 /* Info.plist */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBC0E75D2180AA1400F2B9B8 /* ViewController.swift in Sources */,
+				DBA74A312191EECE004D7243 /* ViewController2.swift in Sources */,
 				DBC0E75B2180AA1400F2B9B8 /* AppDelegate.swift in Sources */,
+				DBC0E78B2180B6CB00F2B9B8 /* Moneda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
